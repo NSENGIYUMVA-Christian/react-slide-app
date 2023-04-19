@@ -27,7 +27,7 @@ const Carousel = () => {
 useEffect(()=>{
    let sliderId = setInterval(()=>{
         nextSlide()
-    },2000);
+    },4000);
     // cleanup function
     return ()=>{
         clearInterval(sliderId)
